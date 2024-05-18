@@ -3,7 +3,7 @@ const Layout = ({ header, footer, children, aside }) => {
   return (
     <div>
       <header>{header}</header>
-      <main className='flex flex-row bg-teal-400'>
+      <main className='flex flex-row'>
         <div>{children}</div>
         <aside className='bg-slate-600'>{aside}</aside>
       </main>
